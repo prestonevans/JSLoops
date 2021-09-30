@@ -1,5 +1,23 @@
 * {
-	border: 0; 
+	border: 0;
 	padding: 0;
 	margin: 0;
+}
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	h1 {
+		margin-bottom: .5em;
+	}
+	a:not(:last-child) {
+		margin-right: .5rem;
+	}
+	.pretty {
+		text-decoration: none;
+		color: cadetblue;
+		font-size: 1.5rem;
+	}
 }
